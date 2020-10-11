@@ -4,7 +4,7 @@
 const config = {
   /* Site
   ========================================= */
-  title: `gatsby-blog-mdx`,          // Displayed in header
+  title: `My Project`,          // Displayed in header
   description: `This is my blog`,     // Site description
   maxWidth: "768px",                  // Max width of website
   enableAbout: true,                  // Enables about page
@@ -13,9 +13,9 @@ const config = {
 
   /* Profile
   ========================================= */
-  author: `Author Name`,                             // Name shows on profile
-  profileDescription: "{Edit me in customize.js}",   // Shows under author name
-  profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
+  author: `Young Jun`,                             // Name shows on profile
+  profileDescription: "{Click name}",   // Shows under author name
+  profileImageName: `profile.jpg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 
@@ -24,8 +24,8 @@ const config = {
       showHeaderIcon: shows social media icon in header. When true, must have account name set
   ========================================= */
   socialMediaLinks: {
-    email:     { emailAddress: "", showHeaderIcon: true },
-    github:    { accountName: "", showHeaderIcon: true },
+    email:     { emailAddress: "dudwns1013@naver.com", showHeaderIcon: true },
+    github:    { accountName: "dudwns1013", showHeaderIcon: true },
     facebook:  { accountName: "", showHeaderIcon: true },
     instagram: { accountName: "", showHeaderIcon: true },
     twitter:   { accountName: "", showHeaderIcon: true },
